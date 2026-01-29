@@ -54,8 +54,14 @@ O projeto pode ser compilado e executado diretamente pelo site GDB Online, sem a
 
 ### Passo 1 - Acessar o site
 Acesse o site: https://www.onlinegdb.com/
+
 ### Passo 2 - Criar o arquivo do codigo
-1. No menu superior, selecione a linguagem **C**.
-2. Apague o código de exemplo exibido.
-3. Copie todo o conteúdo do arquivo "index.c".
-4. Cole o código na área de edição.
+- No menu superior, selecione a linguagem C.
+- Apague o código de exemplo exibido.
+- Copie todo o conteúdo do arquivo "index.c".
+- Cole o código na área de edição.
+
+### Passo 3 - Compilar e executar
+- Clique no botão "Run".
+- O codigo será compilado automaticamente.
+- O programa será executado no terminal localizado na parte inferior da tela.
