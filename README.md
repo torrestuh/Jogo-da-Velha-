@@ -26,4 +26,4 @@ O tabuleiro do jogo é representado por uma matriz 3x3 de caracteres, onde cada 
 # Principais Funções 
 
 - "inicializarTabuleiro()" é a função responsável por preparar o incio da partida, preenchendo todas as posições da matriz com espaços vazios.
-- "mostrarTabuleiro()"
+- "mostrarTabuleiro()" é a funçãoes responsável por exibir o estado atual do tabuleiro no terminal, possibilitando que os jogadores visualizem suas jogadas ao decorrer da partida.
