@@ -22,6 +22,8 @@ Este projeto consiste na implementação de um jogo da velha clássico pelo term
 O projeto utiliza uma abordagem modular baseada em funções, o que facilita a organização, leitura e manutenção do código.
 O jogo permite que o usuário escolha o modo de jogo entre jogar contra outro jogador humano ou contra o computador.
 O tabuleiro do jogo é representado por uma matriz 3x3 de caracteres, onde cada posição da matriz pode assumir os valor 'X', 'O' ou ' ' (espaço vazio).
-Como dito anteriormente, a lógica do jogo é dividida em diversas funções , cada uma responsável por uma tarefa específica.
 
 # Principais Funções 
+
+- 'inicializarTabuleiro()' é a função responsável por preparar o incio da partida, preenchendo todas as posições da matriz com espaços vazios.
+- 'mostrarTabuleiro()'
