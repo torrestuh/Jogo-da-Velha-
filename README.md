@@ -28,3 +28,4 @@ O tabuleiro do jogo é representado por uma matriz 3x3 de caracteres, onde cada 
 - "inicializarTabuleiro()" é a função responsável por preparar o incio da partida, preenchendo todas as posições da matriz com espaços vazios.
 - "mostrarTabuleiro()" é a função responsável por exibir o estado atual do tabuleiro no terminal, possibilitando que os jogadores visualizem suas jogadas ao decorrer da partida.
 - "verificarVitoria()" como o próprio nome já diz, é a função responsável por analisar o tabuleiro após cada jogada, verificando todas as possibilidades de vencer o jogo. Caso algum jogador tenha vencido a partida a função retorna o simbolo correspondente do vencedor.
+- "verificarEmpate()" verifica se o jogo terminou empatado. Para isso, a função percorre todas as posições do tabuleiro identifcando se ainda resta pelo menos uma com espaço vazio. Caso não exista nenhuma posição disponível e não haja um vencedor, o jogo é considerado empatado.
