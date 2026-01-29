@@ -33,6 +33,9 @@ O tabuleiro do jogo é representado por uma matriz 3x3 de caracteres, onde cada 
 - "verificarEmpate()" a função percorre todas as posições do tabuleiro identifcando se ainda resta pelo menos uma com espaço vazio. Caso não exista nenhuma posição disponível e não haja um vencedor, o jogo é considerado empatado.
 - "jogadaJogador()" é a função responsável pela leitura da jogada do jogador humano solicitando a linha e a coluna que o jogador pretende fazer sua jogada. Essa função também valida a jogada, garantindo que a posição informada respeite os limites do tabuleiro e que a posição escolhida esteja livre.
 
-# Minimax
+# Minimax 
 
 A parte mais complexa e importante do projeto é a implementação do algoritmo "Minimax", que garante que o computador seja invencível.
+A função "minimax()" simula recursivamente todas as jogadas possíveis a partir do estado atual do tabuleiro. E para isso ser possível o algoritmo alterna entre dois tipos de jogadores virtuais:
+- Um jogador **Maximizador**, que representa o computador tentando obter a melhor pontuação possível.
+- Um jogador **Minimizador**, que representa o jogador humano tentando reduzir as chances de vitória do computador.
