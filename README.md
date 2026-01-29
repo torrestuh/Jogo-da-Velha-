@@ -45,7 +45,7 @@ A cada chamada recursiva, o algoritmo avalia os estados finais do jogo e atribui
 - Vitória do Jogador Humano dá pontuação negativa
 - Empate dá pontuação neutra
 
-## Tutorial de Execução no GDB Online
-
 Além disso, a profundidade da recursão é considerada no cálculo da pontuação, fazendo com que vitórias mais rápidas sejam priorizadas e derrotas sejam evitadas pelo maior tempo possível.
 Com base nas pontuações retornadas pelo algoritmo Minimax, a função "jogadaMaquina()" percorre todas as posições vazias do tabuleiro, simula cada jogada possível e escolhe aquela que retorna o melhor valor, garantindo que o computador sempre tome a decisão mais vantajosa.
+
+### Tutorial de Execução no GDB Online
