@@ -39,3 +39,11 @@ A parte mais complexa e importante do projeto é a implementação do algoritmo 
 A função "minimax()" simula recursivamente todas as jogadas possíveis a partir do estado atual do tabuleiro. E para isso ser possível o algoritmo alterna entre dois tipos de jogadores virtuais:
 - Um jogador **Maximizador**, que representa o computador tentando obter a melhor pontuação possível.
 - Um jogador **Minimizador**, que representa o jogador humano tentando reduzir as chances de vitória do computador.
+
+A cada chamada recursiva, o algoritmo avalia os estados finais do jogo e atribui pontuações da seguinte maneira:
+- Vitória do Computador dá pontuação positiva
+- Vitória do Jogador Humano dá pontuação negativa
+- Empate dá pontuação neutra
+
+Além disso, a profundidade da recursão é considerada no cálculo da pontuação, fazendo com que vitórias mais rápidas sejam priorizadas e derrotas sejam evitadas pelo maior tempo possível.
+Com base nas pontuações retornadas pelo algoritmo Minimax, a função `jogadaMaquina()` percorre todas as posições vazias do tabuleiro, simula cada jogada possível e escolhe aquela que retorna o melhor valor, garantindo que o computador sempre tome a decisão mais vantajosa.
